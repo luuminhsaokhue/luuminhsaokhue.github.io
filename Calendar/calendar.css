@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Arsenal', sans-serif;
+	color: #858a73;
+	font-weight: 200;
+
+}
+
+#wrap {
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 120px;
+	box-shadow: 1px 1px 20px rgba(0,0,0,0.2);
+	height: 500px;
+}
+
+.image {
+	background-image: url("thangBay.jpg");
+
+}
+.calendar {
+	width: 70%;
+	float: right;
+
+}
+.month {
+	text-align: right;
+	padding: 15px 30px;
+	font-family: 'Pacifico', cursive;
+	color: #c85550;
+	font-size: 2em;
+}
+
+.date {
+	padding-right: 18px;
+}
+
+.date > ul {
+	list-style-type: none;
+	float: left;
+	width: 14.2%;
+}
+
+.date > ul > li {
+	text-align: center;
+	padding: 10px 0;
+	margin: 10px 0;
+}
+
+.underline {
+	border-bottom: solid 2px #0388c8;
+}
+
+.round-cover {
+	background-color: rgba(3,136,200,0.2);
+	border-radius: 5px;
+	
+}
+
+
+#foot {
+	height: 25px;
+	background: url("foot.png") repeat-x bottom;
+	clear:both;
+
+
+}
+
